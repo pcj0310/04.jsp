@@ -1,0 +1,54 @@
+* {margin: 0 auto; padding: 0; text-decoration: none; list-style: none; color:black;}
+img,fieldset {border:0 none;}
+video,img {width: 100%;}
+/* 레이아웃 */
+#header {width: 100%; height: 63px; border-bottom: 1px solid #c6c6c6; background: rgba(0,0,0,0);}
+
+/* 가운데 영역 */
+.container {position: relative; width: 1280px; margin: 0 auto; background: rgba(0,0,0,0); }
+
+/* 로우 영역 */
+.row {padding: 0 24px;}
+
+/*로그인상태영역*/
+#loginstatus {text-align: right;}
+
+/* 헤더 영역 */
+.header h1 {float: left;}
+.header h1 em {padding: 15px 8px 5px 0; display: inline-block;}
+.header h1 em img {width: 155px;}
+.header .nav {float: right;}
+.header .nav ul {border-left: 1px solid #c6c6c6}
+.header .nav ul li {float: left; width: 103px; text-align: center; border-right: 1px solid #c6c6c6;}
+.header .nav ul li a {display: block; padding: 19px 10px; font-size: 17px; font-weight: 700; color: #444;}
+
+/* 배너 */
+.banner_menu {overflow: hidden; position: absolute; left: 0; top: 120px; width: 100%; height: 100px;}
+.banner_menu a {color: #fff; font-size: 16px; transition: all 0.3s;}
+.banner_menu a:hover {color: #c1c1c1;}
+.banner_menu .bm_right {float: right; overflow: hidden;}
+.banner_menu .bm_right ul {float: left;}
+.banner_menu .bm_right li {position: relative; display: inline; text-align: center; margin-right: 20px;}
+.banner_menu .bm_right li.white {margin-right: 10px;}
+.banner_menu .bm_right li.white a {width: 100px; background-color: #fff; color: #3a0e6a; padding: 7px 30px 9px 30px; display: inline-block; border: 1px solid #fff;}
+.banner_menu .bm_right li.purple {margin-right: 0;}
+.banner_menu .bm_right li.purple a {width: 80px; background-color: #3a0e6a; color: #fff; padding: 7px 30px 9px 30px; display: inline-block; border: 1px solid #6e40c4;}
+
+/*슬라이드*/
+.imgslide {width: 100%; height: 600px;}
+
+/* 무비 */
+.movie {padding: 100px 0;}
+.movie_chart {overflow:hidden; height: 592px;}
+.movie_chart > div{float: left; width: 292px; height: 592px; margin: 45px;}
+.movie_chart > div:last-child{margin-right: 0;}
+.movie_chart > div .poster {position: relative;}
+.movie_chart > div .poster img {display: block; width: 181px; height: 260px;}
+.movie_chart > div .infor {background: #fff; padding: 17px; border: 1px solid #d9d9d9;}
+.movie_chart > div .infor .infor_btn {overflow: hidden;}
+.movie_chart > div .infor .infor_btn a {float: left; width: 49%; margin-right: 2%; text-align: center; background: #f2f2f2; font-size: 18px; padding: 15px; box-sizing: border-box;}
+.movie_chart > div .infor .infor_btn a:last-child {margin-right: 0;}
+
+footer{float: left; display: flex; justify-content: center; background-color: rgba(0, 110, 255, 0.473); width: 100%;}
+footer>ul>li{float:left; padding: 20px; text-align: center; margin-top: 40px; color:white}
+footer>p{float: right; padding: 20px; text-align: left; color:white; margin-top: 15px; }

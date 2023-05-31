@@ -1,0 +1,7 @@
+@charset "UTF-8";
+#movinfo img {
+	width: 181px;
+	height: 260px;
+	justify-content: center;
+	display: flex;
+}

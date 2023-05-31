@@ -1,0 +1,179 @@
+* {margin: 0 auto; padding: 0; text-decoration: none; list-style: none; color:black;}
+img,fieldset {border:0 none;}
+video,img {width: 100%;}
+/* 레이아웃 */
+#header {width: 100%; height: 63px; border-bottom: 1px solid #c6c6c6; background: rgba(0,0,0,0);}
+
+/* 가운데 영역 */
+.container {position: relative; width: 1280px; margin: 0 auto; background: rgba(0,0,0,0); }
+
+/* 로우 영역 */
+.row {padding: 0 24px;}
+
+/* 헤더 영역 */
+.header h1 {float: left;}
+.header h1 em {padding: 15px 8px 5px 0; display: inline-block;}
+.header h1 em img {width: 155px;}
+.header .nav {float: right;}
+.header .nav ul {border-left: 1px solid #c6c6c6}
+.header .nav ul li {float: left; width: 103px; text-align: center; border-right: 1px solid #c6c6c6;}
+.header .nav ul li a {display: block; padding: 19px 10px; font-size: 17px; font-weight: 700; color: #444;}
+/* 배너 */
+.banner_menu {overflow: hidden; position: absolute; left: 0; top: 120px; width: 100%; height: 100px;}
+.banner_menu a {color: #fff; font-size: 16px; transition: all 0.3s;}
+.banner_menu a:hover {color: #c1c1c1;}
+.banner_menu .bm_right {float: right; overflow: hidden;}
+.banner_menu .bm_right ul {float: left;}
+.banner_menu .bm_right li {position: relative; display: inline; text-align: center; margin-right: 20px;}
+.banner_menu .bm_right li.white {margin-right: 10px;}
+.banner_menu .bm_right li.white a {width: 80px; background-color: #fff; color: #3a0e6a; padding: 7px 30px 9px 30px; display: inline-block; border: 1px solid black;}
+.banner_menu .bm_right li.purple {margin-right: 0;}
+.banner_menu .bm_right li.purple a {width: 80px; background-color: #3a0e6a; color: #fff; padding: 7px 30px 9px 30px; display: inline-block; border: 1px solid #6e40c4;}
+
+/* 회원가입 */
+#logmem {
+    margin-top: 100px;
+    text-align: center;
+  }
+  
+  #logmem table {
+    width: 800px;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 10px;
+  }
+  
+  #logmem th {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+  
+  #logmem td {
+    padding: 10px;
+  }
+  
+  #logmem input[type="text"],
+  #logmem input[type="password"],
+  #logmem input[type="email"],
+  #logmem input[type="radio"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  #postcode{
+  	width: 100%;
+  	height: 30px;
+  }
+  
+  #logmem input[type="button"],
+  #logmem input[type="reset"] {
+    margin-top: 10px;
+    background-color: #3a0e6a;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  #logmem input[type="button"]:hover,
+  #logmem input[type="reset"]:hover {
+    background-color: #6e40c4;
+  }
+  
+  #logmem input[type="radio"] {
+    margin-right: 5px;
+    display: inline-block;
+    width: auto;
+  }
+  
+  #logmem td:last-child {
+    text-align: center;
+    font-size: 12px;
+    padding-top: 5px;
+  }
+  
+  #logmem #postcode {
+    width: 100%;
+    float: right;
+    font-size: 12px;
+  }
+  
+  #logmem #postbtn {
+  	width:50%;
+  	padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  
+  }
+  
+  #logmem #addr {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  
+  #logmem #detailAddr {
+    width: 100%;
+    margin-top: 5px;
+  }
+  
+  #logmem input[name="id"] {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+
+  }
+
+  #logmem #idch {
+    position: absolute;
+    background-color: #3a0e6a;
+    color: #fff;
+    font-size: 12px;
+    width: 90px;
+    height: 40px;
+    margin:0%; 
+   	top:23.7%;
+   	right: 45.41%;
+   	padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+#logmem .btmbtn {
+  	width: 80px;
+  	padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  footer {
+    float: left;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 110, 255, 0.473);
+    width: 100%;
+    padding: 20px 0;
+    color: white;
+  }
+  
+  footer > ul > li {
+    float: left;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  footer > p {
+    float: right;
+    padding: 20px;
+    text-align: left;
+    margin-top: 15px;
+  }
